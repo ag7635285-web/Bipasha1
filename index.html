@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#8a5de8" />
+  <title>Amar Bondhu'r Prithibi</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <h1>তোমার জন্য এই ছোট মুহূর্ত</h1>
+      <p>এই সাইটটা বানিয়েছি তোমার জন্য — তোমার হাসি, তোমার কথা, আর তোমার সাথে আমার অনুভূতি জন্য।</p>
+    </header>
+
+    <main>
+      <section class="friend-card">
+        <h2>আমার --------</h2>
+        <p>তুমি আমার দিনে সুখ ঢেলে দাও। তোমার মিষ্টি হাসি, নরম কথা, আর তোমার প্রতিটি ছোট্ট আচরণ আমার জন্য অর্থবহ।</p>
+      </section>
+      <section class="photo-card">
+        <h2>তোমার ছবি</h2>
+        <div class="photo-grid">
+          <img src="WhatsApp Image 2026-04-22 at 3.31.12 PM.jpeg" alt="Photo 1" />
+          <img src="WhatsApp Image 2026-04-22 at 3.31.12 PM (1).jpeg" alt="Photo 2" />
+          <img src="WhatsApp Image 2026-04-22 at 3.31.12 PM (2).jpeg" alt="Photo 3" />
+        </div>
+        <p>এই ছবিগুলোতে তোমার জন্য আমার মন ভালো লাগার ছোট ছোট মুহূর্তগুলো ধারণ করা আছে।</p>
+      </section>
+      <section class="friend-card">
+        <h2>তোমার স্মৃতিগুলো</h2>
+        <p>তোমার সঙ্গে কাটানো সেই মুহূর্তগুলো সবসময় আমার মনে থাকবে। তোমার কথা শুনলে হৃদয় উড়ে যায়, আর তোমার presence সবকিছুকে সুন্দর করে দেয়।</p>
+      </section>
+
+      <section class="friend-card">
+        <h2>ভালবাসার পাঠ</h2>
+        <p>এই সাইটটা শুধু কিছু সুন্দর কথা নয়, এটি তোমাকে জানাতে চায় তুমি আমার জন্য কতটা স্পেশাল।</p>
+      </section>
+
+      <section class="friend-card">
+        <h2>আরও কিছু ভালো কথা</h2>
+        <p>তুমি আমার দিনের সূর্য, রাতের চাঁদ। তোমার হাসি দেখলে সব দুঃখ ভুলে যাই। তুমি আমার জীবনের সবচেয়ে সুন্দর উপহার। তোমার সাথে থাকলে সময় থেমে যায়, আর তোমার কথা শুনলে হৃদয় গান গায়। তুমি আমার স্বপ্নের রাজকুমারী, আমার ভালবাসার গল্পের নায়িকা।</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>এই সাইটটা তোমার জন্য।</p>
+    </footer>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(() => {
+        console.warn('Service worker registration failed.');
+      });
+    }
+  </script>
+</body>
+</html>

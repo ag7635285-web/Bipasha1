@@ -1,0 +1,15 @@
+{
+  "name": "Amar Crash Website",
+  "short_name": "CrashSite",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f9f6ff",
+  "theme_color": "#8a5de8",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
